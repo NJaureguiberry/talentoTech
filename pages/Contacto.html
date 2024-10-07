@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto talento tech</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.htm">Home</a></li>
+                <li><a href="/pages/Productos.html">Productos</a></li>
+                <li><a href="/pages/Reseñas.html">Reseñas</a></li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1>Contacto</h1> <br>
+            <p>Dejanos un mensaje</p>
+        </div>
+
+        <form action="" method="post">
+            <fieldset>
+            <legend>CONTACTO</legend>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" placeholder="Nombre" maxlength="30" required>
+                
+                <label for="surname">Apellido:</label>
+                <input type="text" id="surname" placeholder="Apellido" maxlength="30" required>
+
+                <br><br>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" placeholder="correo@ejemplo.com" maxlength="40" required>
+                
+                <br><br>
+                <label for="mensaje">Mensaje:</label>
+                <br>
+                <textarea id="mensaje" name="mensaje" maxlength="250"  placeholder="Dejanos tu mensaje aqui.." required></textarea>
+                <br>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
